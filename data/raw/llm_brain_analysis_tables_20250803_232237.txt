@@ -1,0 +1,167 @@
+LLM BRAIN ACTIVITY ANALYSIS - RESULTS TABLES
+================================================================================
+
+Generated: 2025-08-03 23:22:37
+Total Models: 6
+Total Categories: 12
+
+TABLE 1: COMPLETE ANALYSIS RESULTS
+--------------------------------------------------
+        Model                         Model_Name Architecture Parameters  Layers  Heads  Hidden_Size                Category  Final_Activation  Attention_Entropy  Max_Sparsity  Inputs_Analyzed
+    BERT-Base                  bert-base-uncased      encoder     109.5M      12     12          768       factual_questions           -0.0127           105.2441        0.0392                2
+    BERT-Base                  bert-base-uncased      encoder     109.5M      12     12          768        creative_writing           -0.0116           113.7041        0.0381                2
+    BERT-Base                  bert-base-uncased      encoder     109.5M      12     12          768  mathematical_reasoning           -0.0124           217.3457        0.0317                2
+    BERT-Base                  bert-base-uncased      encoder     109.5M      12     12          768       emotional_content           -0.0151           147.4247        0.0501                2
+    BERT-Base                  bert-base-uncased      encoder     109.5M      12     12          768          technical_code           -0.0132           130.9137        0.0351                2
+    BERT-Base                  bert-base-uncased      encoder     109.5M      12     12          768   philosophical_queries           -0.0123           110.4429        0.0374                2
+    BERT-Base                  bert-base-uncased      encoder     109.5M      12     12          768     conversational_chat           -0.0154           125.1743        0.0441                2
+    BERT-Base                  bert-base-uncased      encoder     109.5M      12     12          768         logical_puzzles           -0.0131           181.7701        0.0317                2
+    BERT-Base                  bert-base-uncased      encoder     109.5M      12     12          768 scientific_explanations           -0.0129            77.1013        0.0443                2
+    BERT-Base                  bert-base-uncased      encoder     109.5M      12     12          768          language_tasks           -0.0128           109.2040        0.0357                2
+    BERT-Base                  bert-base-uncased      encoder     109.5M      12     12          768   instruction_following           -0.0121            82.0877        0.0427                2
+    BERT-Base                  bert-base-uncased      encoder     109.5M      12     12          768   commonsense_reasoning           -0.0124           106.5791        0.0374                2
+    GPT2-117M                               gpt2      decoder     124.4M      12     12          768       factual_questions            0.2951            36.4125        0.0715                2
+    GPT2-117M                               gpt2      decoder     124.4M      12     12          768        creative_writing            0.3345            50.4151        0.0675                2
+    GPT2-117M                               gpt2      decoder     124.4M      12     12          768  mathematical_reasoning            0.3634           124.5412        0.0690                2
+    GPT2-117M                               gpt2      decoder     124.4M      12     12          768       emotional_content            0.3740            46.4142        0.0698                2
+    GPT2-117M                               gpt2      decoder     124.4M      12     12          768          technical_code            0.3363            56.0439        0.0684                2
+    GPT2-117M                               gpt2      decoder     124.4M      12     12          768   philosophical_queries            0.3071            40.6947        0.0700                2
+    GPT2-117M                               gpt2      decoder     124.4M      12     12          768     conversational_chat            0.3243            41.4110        0.0684                2
+    GPT2-117M                               gpt2      decoder     124.4M      12     12          768         logical_puzzles            0.3608            61.4619        0.0709                2
+    GPT2-117M                               gpt2      decoder     124.4M      12     12          768 scientific_explanations            0.3096            26.3407        0.0607                2
+    GPT2-117M                               gpt2      decoder     124.4M      12     12          768          language_tasks            0.2932            51.4405        0.0604                2
+    GPT2-117M                               gpt2      decoder     124.4M      12     12          768   instruction_following            0.3229            32.4797        0.0598                2
+    GPT2-117M                               gpt2      decoder     124.4M      12     12          768   commonsense_reasoning            0.3163            45.4566        0.0634                2
+Qwen-1.5-0.5B                  Qwen/Qwen1.5-0.5B      decoder     464.0M      24     16         1024       factual_questions           -0.0898            47.8277        0.4404                2
+Qwen-1.5-0.5B                  Qwen/Qwen1.5-0.5B      decoder     464.0M      24     16         1024        creative_writing           -0.2003            55.4011        0.4151                2
+Qwen-1.5-0.5B                  Qwen/Qwen1.5-0.5B      decoder     464.0M      24     16         1024  mathematical_reasoning            0.0207           222.3093        0.3639                2
+Qwen-1.5-0.5B                  Qwen/Qwen1.5-0.5B      decoder     464.0M      24     16         1024       emotional_content            0.0063            56.3479        0.4368                2
+Qwen-1.5-0.5B                  Qwen/Qwen1.5-0.5B      decoder     464.0M      24     16         1024          technical_code           -0.0798            67.7676        0.4347                2
+Qwen-1.5-0.5B                  Qwen/Qwen1.5-0.5B      decoder     464.0M      24     16         1024   philosophical_queries           -0.1249            52.0022        0.4350                2
+Qwen-1.5-0.5B                  Qwen/Qwen1.5-0.5B      decoder     464.0M      24     16         1024     conversational_chat           -0.1213            54.8240        0.4417                2
+Qwen-1.5-0.5B                  Qwen/Qwen1.5-0.5B      decoder     464.0M      24     16         1024         logical_puzzles           -0.0674            88.1753        0.4192                2
+Qwen-1.5-0.5B                  Qwen/Qwen1.5-0.5B      decoder     464.0M      24     16         1024 scientific_explanations           -0.1558            34.7996        0.4204                2
+Qwen-1.5-0.5B                  Qwen/Qwen1.5-0.5B      decoder     464.0M      24     16         1024          language_tasks            0.0752            59.1393        0.4111                2
+Qwen-1.5-0.5B                  Qwen/Qwen1.5-0.5B      decoder     464.0M      24     16         1024   instruction_following           -0.0759            37.0616        0.4098                2
+Qwen-1.5-0.5B                  Qwen/Qwen1.5-0.5B      decoder     464.0M      24     16         1024   commonsense_reasoning           -0.0596            55.2672        0.4404                2
+        Phi-1                    microsoft/phi-1      decoder       1.4B      24     32         2048       factual_questions            0.0014            66.7871        0.2475                2
+        Phi-1                    microsoft/phi-1      decoder       1.4B      24     32         2048        creative_writing            0.0001            97.0035        0.2635                2
+        Phi-1                    microsoft/phi-1      decoder       1.4B      24     32         2048  mathematical_reasoning            0.0002           231.9407        0.2529                2
+        Phi-1                    microsoft/phi-1      decoder       1.4B      24     32         2048       emotional_content            0.0003            90.2055        0.2258                2
+        Phi-1                    microsoft/phi-1      decoder       1.4B      24     32         2048          technical_code            0.0016           102.3880        0.2240                2
+        Phi-1                    microsoft/phi-1      decoder       1.4B      24     32         2048   philosophical_queries            0.0017            79.2160        0.2158                2
+        Phi-1                    microsoft/phi-1      decoder       1.4B      24     32         2048     conversational_chat            0.0015            82.7705        0.1946                2
+        Phi-1                    microsoft/phi-1      decoder       1.4B      24     32         2048         logical_puzzles            0.0009           116.0601        0.2277                2
+        Phi-1                    microsoft/phi-1      decoder       1.4B      24     32         2048 scientific_explanations            0.0013            54.4324        0.2568                2
+        Phi-1                    microsoft/phi-1      decoder       1.4B      24     32         2048          language_tasks            0.0003           105.5008        0.2345                2
+        Phi-1                    microsoft/phi-1      decoder       1.4B      24     32         2048   instruction_following            0.0014            62.4659        0.2782                2
+        Phi-1                    microsoft/phi-1      decoder       1.4B      24     32         2048   commonsense_reasoning            0.0002            94.7300        0.2309                2
+   BLOOM-560M              bigscience/bloom-560m      decoder     559.2M      24     16         1024       factual_questions           -1.8945            47.3671        0.0358                2
+   BLOOM-560M              bigscience/bloom-560m      decoder     559.2M      24     16         1024        creative_writing           -1.8433            62.4071        0.0377                2
+   BLOOM-560M              bigscience/bloom-560m      decoder     559.2M      24     16         1024  mathematical_reasoning           -1.7586           148.6477        0.0360                2
+   BLOOM-560M              bigscience/bloom-560m      decoder     559.2M      24     16         1024       emotional_content           -1.8449            50.7549        0.0389                2
+   BLOOM-560M              bigscience/bloom-560m      decoder     559.2M      24     16         1024          technical_code           -2.0028            69.1147        0.0344                2
+   BLOOM-560M              bigscience/bloom-560m      decoder     559.2M      24     16         1024   philosophical_queries           -1.9316            52.6769        0.0365                2
+   BLOOM-560M              bigscience/bloom-560m      decoder     559.2M      24     16         1024     conversational_chat           -1.8348            46.8406        0.0345                2
+   BLOOM-560M              bigscience/bloom-560m      decoder     559.2M      24     16         1024         logical_puzzles           -1.7569            70.6444        0.0355                2
+   BLOOM-560M              bigscience/bloom-560m      decoder     559.2M      24     16         1024 scientific_explanations           -1.8374            32.9546        0.0371                2
+   BLOOM-560M              bigscience/bloom-560m      decoder     559.2M      24     16         1024          language_tasks           -1.6379            62.8876        0.0338                2
+   BLOOM-560M              bigscience/bloom-560m      decoder     559.2M      24     16         1024   instruction_following           -1.8357            45.2770        0.0378                2
+   BLOOM-560M              bigscience/bloom-560m      decoder     559.2M      24     16         1024   commonsense_reasoning           -1.8531            53.5799        0.0317                2
+  StableLM-3B stabilityai/stablelm-base-alpha-3b      decoder       3.6B      16     32         4096       factual_questions            0.0057            71.1094        0.6665                2
+  StableLM-3B stabilityai/stablelm-base-alpha-3b      decoder       3.6B      16     32         4096        creative_writing            0.0033           119.6001        0.6861                2
+  StableLM-3B stabilityai/stablelm-base-alpha-3b      decoder       3.6B      16     32         4096  mathematical_reasoning            0.0040           229.1561        0.5820                2
+  StableLM-3B stabilityai/stablelm-base-alpha-3b      decoder       3.6B      16     32         4096       emotional_content            0.0041            93.5714        0.5372                2
+  StableLM-3B stabilityai/stablelm-base-alpha-3b      decoder       3.6B      16     32         4096          technical_code            0.0045           138.4184        0.6631                2
+  StableLM-3B stabilityai/stablelm-base-alpha-3b      decoder       3.6B      16     32         4096   philosophical_queries            0.0057            75.5297        0.6338                2
+  StableLM-3B stabilityai/stablelm-base-alpha-3b      decoder       3.6B      16     32         4096     conversational_chat            0.0057            82.4884        0.5827                2
+  StableLM-3B stabilityai/stablelm-base-alpha-3b      decoder       3.6B      16     32         4096         logical_puzzles            0.0048           131.5142        0.5864                2
+  StableLM-3B stabilityai/stablelm-base-alpha-3b      decoder       3.6B      16     32         4096 scientific_explanations            0.0043            56.5229        0.5697                2
+  StableLM-3B stabilityai/stablelm-base-alpha-3b      decoder       3.6B      16     32         4096          language_tasks            0.0056            97.4854        0.6200                2
+  StableLM-3B stabilityai/stablelm-base-alpha-3b      decoder       3.6B      16     32         4096   instruction_following            0.0027            82.7698        0.6730                2
+  StableLM-3B stabilityai/stablelm-base-alpha-3b      decoder       3.6B      16     32         4096   commonsense_reasoning            0.0063            99.0532        0.5927                2
+
+TABLE 2: MODEL SUMMARY
+------------------------------
+        Model Architecture Parameters  Final_Activation  Attention_Entropy  Max_Sparsity  Inputs_Analyzed
+    BERT-Base      encoder     109.5M           -0.0130           125.5826        0.0390               24
+   BLOOM-560M      decoder     559.2M           -1.8360            61.9294        0.0358               24
+    GPT2-117M      decoder     124.4M            0.3281            51.0927        0.0666               24
+        Phi-1      decoder       1.4B            0.0009            98.6250        0.2377               24
+Qwen-1.5-0.5B      decoder     464.0M           -0.0727            69.2436        0.4224               24
+  StableLM-3B      decoder       3.6B            0.0047           106.4349        0.6161               24
+
+TABLE 3: CATEGORY PERFORMANCE ACROSS MODELS
+---------------------------------------------
+                         Final_Activation_mean  Final_Activation_std  Attention_Entropy_mean  Attention_Entropy_std  Max_Sparsity_mean  Max_Sparsity_std
+Category                                                                                                                                                
+commonsense_reasoning                  -0.2670                0.7887                 75.7777                27.1384             0.2328            0.2366
+conversational_chat                    -0.2733                0.7795                 72.2515                31.3587             0.2277            0.2321
+creative_writing                       -0.2862                0.7821                 83.0885                30.7438             0.2513            0.2611
+emotional_content                      -0.2459                0.7976                 80.7864                38.4016             0.2264            0.2152
+factual_questions                      -0.2825                0.8007                 62.4580                24.6754             0.2502            0.2576
+instruction_following                  -0.2661                0.7817                 57.0236                22.1791             0.2502            0.2567
+language_tasks                         -0.2127                0.7075                 80.9429                25.8736             0.2326            0.2408
+logical_puzzles                        -0.2452                0.7564                108.2710                44.7520             0.2286            0.2303
+mathematical_reasoning                 -0.2304                0.7625                195.6568                46.6621             0.2226            0.2213
+philosophical_queries                  -0.2924                0.8159                 68.4271                25.3736             0.2381            0.2470
+scientific_explanations                -0.2818                0.7772                 47.0252                19.1047             0.2315            0.2248
+technical_code                         -0.2922                0.8507                 94.1077                35.0827             0.2433            0.2572
+
+TABLE 4: ARCHITECTURE COMPARISON
+-----------------------------------
+Architecture  Final_Activation  Attention_Entropy  Max_Sparsity  Inputs_Analyzed
+     decoder            -0.315            77.4651        0.2757              120
+     encoder            -0.013           125.5826        0.0390               24
+
+TABLE 5: PARAMETER SCALE ANALYSIS
+-----------------------------------
+Parameters  Final_Activation  Attention_Entropy  Max_Sparsity  Num_Models
+      1.4B            0.0009            98.6250        0.2377           1
+    109.5M           -0.0130           125.5826        0.0390           1
+    124.4M            0.3281            51.0927        0.0666           1
+      3.6B            0.0047           106.4349        0.6161           1
+    464.0M           -0.0727            69.2436        0.4224           1
+    559.2M           -1.8360            61.9294        0.0358           1
+
+TABLE 6: TOP PERFORMERS BY METRIC
+-----------------------------------
+Top 10 by Final Activation:
+    Model                Category  Final_Activation
+GPT2-117M       emotional_content            0.3740
+GPT2-117M  mathematical_reasoning            0.3634
+GPT2-117M         logical_puzzles            0.3608
+GPT2-117M          technical_code            0.3363
+GPT2-117M        creative_writing            0.3345
+GPT2-117M     conversational_chat            0.3243
+GPT2-117M   instruction_following            0.3229
+GPT2-117M   commonsense_reasoning            0.3163
+GPT2-117M scientific_explanations            0.3096
+GPT2-117M   philosophical_queries            0.3071
+
+Top 10 by Attention Entropy:
+        Model               Category  Attention_Entropy
+        Phi-1 mathematical_reasoning           231.9407
+  StableLM-3B mathematical_reasoning           229.1561
+Qwen-1.5-0.5B mathematical_reasoning           222.3093
+    BERT-Base mathematical_reasoning           217.3457
+    BERT-Base        logical_puzzles           181.7701
+   BLOOM-560M mathematical_reasoning           148.6477
+    BERT-Base      emotional_content           147.4247
+  StableLM-3B         technical_code           138.4184
+  StableLM-3B        logical_puzzles           131.5142
+    BERT-Base         technical_code           130.9137
+
+Top 10 by Lowest Sparsity (Highest Density):
+     Model               Category  Max_Sparsity
+ BERT-Base mathematical_reasoning        0.0317
+ BERT-Base        logical_puzzles        0.0317
+BLOOM-560M  commonsense_reasoning        0.0317
+BLOOM-560M         language_tasks        0.0338
+BLOOM-560M         technical_code        0.0344
+BLOOM-560M    conversational_chat        0.0345
+ BERT-Base         technical_code        0.0351
+BLOOM-560M        logical_puzzles        0.0355
+ BERT-Base         language_tasks        0.0357
+BLOOM-560M      factual_questions        0.0358
+
