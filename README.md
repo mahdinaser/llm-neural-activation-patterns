@@ -1,4 +1,4 @@
-# Neural Activation Patterns Across Language Model Architectures
+# Neural Activation Patterns Across Language Model Architectures: A Comprehensive Analysis of Cognitive Task Performance
 
 This repository contains the complete dataset and analysis code for the paper:
 
